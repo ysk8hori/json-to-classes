@@ -1,7 +1,7 @@
 {
-  "name": "json-to-ts",
-  "version": "1.7.0",
-  "description": "Convert json object to typescript interfaces",
+  "name": "json-to-classes",
+  "version": "1.0.0",
+  "description": "Convert json object to typescript classes",
   "keywords": [
     "typescript",
     "ts",
@@ -13,6 +13,7 @@
   ],
   "types": "build/src/index.d.ts",
   "main": "build/src/index.js",
+  "private": true,
   "scripts": {
     "prepublish": "npm run build",
     "build": "rm -rf ./build && tsc",
@@ -38,7 +39,7 @@
     "@types/mocha": "2.2.40",
     "@types/node": "^7.0.12",
     "@types/pluralize": "^0.0.27",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.2",
     "typescript": "^3.8.3"
   }
 }
